@@ -5,3 +5,6 @@
  const all_hero = marvel_hero.concat(dc_hero)
 
  console.log(all_hero);
+
+ console.log("hey");
+
