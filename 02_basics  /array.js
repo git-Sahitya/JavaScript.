@@ -13,7 +13,7 @@ const myAry1 = new Array(1,2,3,4,5)
 // Array Methods
 
   myAry.push(8)                     // Add the given element in last.
-  myAry.pop()                  // Remove last element
+  myAry.pop()                       // Remove last element
 
 console.log(myAry);
 
