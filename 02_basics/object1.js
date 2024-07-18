@@ -30,7 +30,7 @@ const regularUser ={
     //  console.log(obj4);
 
     const obj4 = {...obj1,...obj2,...obj3}
-    console.log(obj4);
+   // console.log(obj4);
 
 
 
@@ -55,6 +55,19 @@ const regularUser ={
 
     // console.log(holders);
     
-     console.log(holders[0]);
-     console.log(holders[0].id);
-     console.log(holders[0].email);
+    //  console.log(holders[0]);
+    //  console.log(holders[0].id);
+    //  console.log(holders[0].email);
+
+     const course = {
+
+        coursename : "javaScript",
+        price : "Time",
+        courseInstructor : "Chai Aur Code"
+     }
+
+     const {coursename : name} = course
+
+     console.log(name);
+
+     
