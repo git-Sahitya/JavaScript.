@@ -17,5 +17,5 @@ switch (month) {
 
     default:
         console.log(`Code not executed`);
-        break;
+        
 }
