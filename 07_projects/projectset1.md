@@ -40,7 +40,7 @@ buttons.forEach(function (button) {
  ## project 2
 
  ``` javaScript
- 
+
  const form = document.querySelector('form');
 
 form.addEventListener('submit', function (e) {
@@ -59,5 +59,20 @@ form.addEventListener('submit', function (e) {
     results.innerHTML = `<span> ${bmi} </span>`;
   }
 });
+
+```
+
+## project 3
+
+```javaScript
+
+const clock = document.getElementById('clock');
+
+setInterval(function () {
+  let date = new Date();
+
+  clock.innerHTML = date.toLocaleTimeString();
+}, 1000);
+
 
 ```
