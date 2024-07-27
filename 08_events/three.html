@@ -10,8 +10,19 @@
     <button id="start" style="font-size: 15px;">Start</button>
     <button id="stop" style="font-size: 15px;">Stop</button>
 </body>
-<script>
+<script> 
+
+   document.querySelector('#start').
+   addEventListener('click' , function(){
+     const stop = setInterval(() => console.log("Sahitya") , 1000)
     
+    document.querySelector("#stop").
+    addEventListener('click', function() {
+       clearInterval(stop)
+})
+}
+)  
+ 
 
 
 
