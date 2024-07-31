@@ -24,7 +24,7 @@
   }
 
    const userOne = new User("Sahitya Singh" ,12,true)
-   const userTwo = new User(" Harshal Singh" ,7,false)
+   const userTwo = new User("Harshal Singh" ,7,false)
       
   console.log(userOne);
   console.log(userTwo);
