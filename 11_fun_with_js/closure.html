@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+   <button id="orange">Orange</button>
+   <button id="green">Green</button>
+</body>
+<script>
+
+function init() {
+          let name = "Mozilla"; 
+           function displayName() {
+              console.log( "Inner :",name); 
+        }
+           function displayName1(){
+              console.log("Inner1 :" , name);
+        }
+             displayName();
+             displayName1()
+      }
+         init(); 
+         console.log("Outer :",name);   
+</script>
+<script>
+// closure example
+
+function clickHandler(color){
+
+   return function(){
+      document.body.style.backgroundColor = `${color}`
+   }
+}
+
+document.getElementById('orange').onclick = clickHandler("orange")
+document.getElementById('green').onclick = clickHandler("green")
+</script>
+</html>
